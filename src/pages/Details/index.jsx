@@ -1,12 +1,12 @@
-import { Fragment } from "react"
+import { Container } from "./styles"
 
 export function Details(){
   
   return(
-    <Fragment>
+    <Container>
        <h1>Hello world</h1>
        <span>Fernanda Sesnick</span>
-    </Fragment>
+    </Container>
    
   )
 }
