@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
 import theme from './theme';
 
-export default createGlobalStyle `
+export default createGlobalStyle`
    
     *{
         margin:0;
@@ -30,5 +30,4 @@ export default createGlobalStyle `
     button:hover ,a:hover {
         filter:brightness(0.9);
     }
-
-`;
+    `;
